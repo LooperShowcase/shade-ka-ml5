@@ -30,6 +30,7 @@ function hearword(error, results) {
 function keyPressed() {
   if (key === " " || keyCode === 38) {
     player.jump();
+    console.log("up");
   }
 }
 function draw() {
